@@ -1,8 +1,8 @@
-# 🕵️‍♂️ Electronic Lie Detector Circuit
+# 🕵️‍♂️ Human skin lie detector circuit
 
 ## 📜 Descrierea Proiectului
 
-Acest proiect constă într-un detector de minciuni electronic, capabil să măsoare rezistența pielii pentru a indica nivelul de stres sau emoție al unei persoane. Dispozitivul funcționează pe baza variațiilor rezistenței pielii, care sunt amplificate și analizate pentru a oferi un indicator vizual al stării subiectului.
+Acest proiect constă într-un detector de minciuni electronic, capabil să ofere două tipuri de măsurători: una pentru întrebările dificile adresate și alta pentru a indica starea emoțională generală. Stările emoționale sunt detectate nu doar prin accelerarea ritmului cardiac și tremurul mâinilor, ci și prin creșterea umidității pielii, care determină scăderea rezistenței și activarea detectorului de minciuni.
 
 ### Caracteristici principale:
 
@@ -17,10 +17,9 @@ Acest proiect constă într-un detector de minciuni electronic, capabil să măs
 
 Proiectul include următoarele fișiere și directoare:
 
-- `Bill_of_Materials` - Listă detaliată a componentelor utilizate (BOM);
-- `Data Sheets` - Documentația tehnică a componentelor electronice folosite;
+- `Bill_of_Materials` - Listă componentelor utilizate (BOM);
+- `Data Sheets` - Documentația tehnică a circuitului folosit;
 - `Schematics` - Schema electronică a circuitului detector de minciuni;
-- `Simulations` - Fișiere pentru simularea și verificarea funcționalității circuitului;
 - `Project Docs` - Documentația proiectului:
   - **Descrierea funcționării** circuitului;
   - **Calculul componentelor** pentru proiectare optimă.
@@ -28,14 +27,15 @@ Proiectul include următoarele fișiere și directoare:
 ## 🔧 Instrucțiuni pentru Utilizare
 
 ### **Simularea Circuitului**
-1. Deschide fișierul `.opj` din folderul `Schematics` folosind un simulator compatibil (ex. OrCAD, LTspice);
-2. Rulează simulările pentru a verifica funcționarea circuitului.
+  Deschide fișierul `.opj` din folderul `Schematics` folosind un simulator compatibil (ex. OrCAD);
+
 
 ## ⚙️ Cerințe Tehnice
 
 - **Software necesar**:
-  - OrCAD/LTspice pentru simulare;
-  - Un vizualizator Gerber pentru PCB.
+  - Software necesar:
+    - OrCAD 17.2 - OrCAD X pentru simulări.
+    - OrCAD 17.2 - OrCAD X pentru design-ul PCB.
 
 ## 🖼️ Capturi de Ecran și Scheme
 

@@ -27,13 +27,9 @@ Proiectul include următoarele fișiere și directoare:
 
 ## 🔧 Instrucțiuni pentru Utilizare
 
-### 1. **Simularea Circuitului**
+### **Simularea Circuitului**
 1. Deschide fișierul `.opj` din folderul `Schematics` folosind un simulator compatibil (ex. OrCAD, LTspice);
 2. Rulează simulările pentru a verifica funcționarea circuitului.
-
-### 2. **Fabricarea PCB-ului**
-1. Folosește fișierele Gerber din folderul `Layout` pentru a produce PCB-ul;
-2. Montează componentele conform schemei și BOM-ului.
 
 ## ⚙️ Cerințe Tehnice
 

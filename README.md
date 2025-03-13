@@ -40,10 +40,10 @@ Proiectul include următoarele fișiere și directoare:
 ## 🖼️ Capturi de Ecran și Scheme
 
 1. **Schemă Electrică**:
-   ![Schemă](https://github.com/username/repo/blob/main/Schematics/schema.jpg)
+   ![Schemă](https://github.com/user-attachments/assets/0b09990f-97f6-44a7-b949-0f0ce008b7cc)
 
 2. **PCB Design**:
-   ![PCB](https://github.com/username/repo/blob/main/Layout/pcb_design.jpg)
+   ![PCB](https://github.com/user-attachments/assets/657064f6-a793-4504-9700-3767f7864680)
 
 ## 👨‍💻 Autor
 

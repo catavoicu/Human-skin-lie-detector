@@ -1,0 +1,83 @@
+Mon Jun 03 20:21:26 2024				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Mon Jun 03 20:21:26 2024
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : PCB_BUN.brd                                   )
+(    Software Version : 17.2S025                                      )
+(    Date/Time        : Mon Jun 03 20:21:26 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Mon Jun 03 20:21:26 2024				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'C:/Users/catav/OneDrive - Universitatea Politehnica Bucuresti/Desktop/TIE_PCB_WORKING/TIE/PCB_BUN.brd'
+Output design = ''
+
+Update mechanical symbols              = 'YES'
+Update format symbols                  = 'YES'
+Update package symbols                 = 'YES'
+Update shape/flash symbols             = 'YES'
+Update symbol padstacks                = 'NO'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+
+------ Symbol Refresh Messages ------
+
+'FRAME_WAGO_B3_X3'  symbol refreshed successfully.
+'TRIM_3306F-1-103'  symbol refreshed successfully.
+'DIP8_3'  symbol refreshed successfully.
+'RES400'  symbol refreshed successfully.
+'DO35'  symbol refreshed successfully.
+'WCAP-CSGP_885012105004'  symbol refreshed successfully.
+'WCAP-CSST_885382207007'  symbol refreshed successfully.
+'JUMPER2'  symbol refreshed successfully.
+'GAURA'  symbol refreshed successfully.
+'AB00'  symbol refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 10 out 10
+    Design updated.
+

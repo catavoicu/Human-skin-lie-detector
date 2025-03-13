@@ -1,0 +1,27 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Unplaced Symbol Availability Check                               )
+(                                                                     )
+(    Drawing          : PCB_BUN.brd                                   )
+(    Software Version : 17.2S025                                      )
+(    Date/Time        : Sat Jun 01 18:00:06 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Current PSMPATH consists of:
+	.
+	symbols
+	..
+	../symbols
+	C:/Cadence/SPB_17.2/share/local/pcb/symbols
+	C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
+	C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols
+
+
+All Symbols Found
+
+Total symbols placed:      17 out of 18
+
+
+Symbol Found:  P1	- C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/trim_3306f-1-103.psm

@@ -1,0 +1,459 @@
+(PCB IDK
+ (description
+  (timeStamp "2024 05 31 21 32 22")
+  (program "CAPTURE.EXE" (Version "17.2-2016 - D"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "")
+  (date "Thursday, May 30, 2024")
+  (document "C:\\USERS\\CATAV\\ONEDRIVE - UNIVERSITATEA POLITEHNICA BUCURESTI\\DESKTOP\\TIE_PCB_WORKING\\TIE\\IDK.DSN")
+  (revision "")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component R
+   (place R1
+    (property 
+     (timestamp 000000D0)
+     ("Source Package" R)
+     (Value 47K)
+     ("PCB Footprint" RES400)))
+   (place R2
+    (property 
+     (timestamp 000000E0)
+     ("Source Package" R)
+     (Value 1M)
+     ("PCB Footprint" RES400)))
+   (place R3
+    (property 
+     (timestamp 000001CE)
+     ("Source Package" R)
+     (Value 3.3K)
+     ("PCB Footprint" RES400)))
+   (place R4
+    (property 
+     (timestamp 0000110A)
+     ("Source Package" R)
+     (Value 10K)
+     ("PCB Footprint" RES400)))
+   (place R5
+    (property 
+     (timestamp 00000193)
+     ("Source Package" R)
+     (Value 10M)
+     ("PCB Footprint" RES400))))
+  (component CON2
+   (place J1
+    (property 
+     (timestamp 000015BE)
+     ("Source Package" CON2)
+     (Value CON2)
+     ("PCB Footprint" JUMPER2)))
+   (place J2
+    (property 
+     (timestamp 00001C23)
+     ("Source Package" CON2)
+     (Value CON2)
+     ("PCB Footprint" JUMPER2))))
+  (component POT
+   (place P1
+    (property 
+     (timestamp 0000143D)
+     ("Source Package" POT)
+     (Value 10K)
+     ("PCB Footprint" "TRIM_3306F-1-103"))))
+  (component "CAP NP"
+   (place C1
+    (property 
+     (timestamp 000001E7)
+     ("Source Package" "CAP NP")
+     (Value 100n)
+     ("PCB Footprint" "WCAP-CSST_885382207007")))
+   (place C2
+    (property 
+     (timestamp 00000124)
+     ("Source Package" "CAP NP")
+     (Value 470n)
+     ("PCB Footprint" "WCAP-CSGP_885012105004")))
+   (place C3
+    (property 
+     (timestamp 00000114)
+     ("Source Package" "CAP NP")
+     (Value 470n)
+     ("PCB Footprint" "WCAP-CSGP_885012105004"))))
+  (component BATTERY
+   (place BAT1
+    (property 
+     (timestamp 000006A5)
+     ("Source Package" BATTERY)
+     (Value 9V)
+     ("PCB Footprint" JUMPER2)))
+   (place BAT2
+    (property 
+     (timestamp 0000068C)
+     ("Source Package" BATTERY)
+     (Value 9V)
+     ("PCB Footprint" JUMPER2))))
+  (component LF356_1
+   (place U1
+    (property 
+     (timestamp 00004C29)
+     ("Source Package" LF356_1)
+     (Value IC1)
+     ("PCB Footprint" DIP8_3)))
+   (place U2
+    (property 
+     (timestamp 00004E5A)
+     ("Source Package" LF356_1)
+     (Value IC2)
+     ("PCB Footprint" DIP8_3))))
+  (component 1N4148
+   (place D1
+    (property 
+     (Implementation awb1n4148)
+     (STATE ON)
+     (timestamp 00000094)
+     ("Source Package" 1N4148)
+     (TOL_ON_OFF ON)
+     (Value 1N4148)
+     (RCA DEF)
+     ("PCB Footprint" DO35)))
+   (place D2
+    (property 
+     (Implementation awb1n4148)
+     (STATE ON)
+     (timestamp 000000A4)
+     ("Source Package" 1N4148)
+     (TOL_ON_OFF ON)
+     (Value 1N4148)
+     (RCA DEF)
+     ("PCB Footprint" DO35))))
+  (component "METER A"
+   (place M1
+    (property 
+     (timestamp 000040A2)
+     ("Source Package" "METER A")
+     (Value 100uA)
+     ("PCB Footprint" JUMPER2)))))
+ (library
+  (image LF356_1
+   (property 
+    (sourcelib "C:\\USERS\\CATAV\\ONEDRIVE - UNIVERSITATEA POLITEHNICA BUCURESTI\\DESKTOP\\TIE_PCB_WORKING\\TIE\\IDK.DSN"))
+   (pin 999 3
+    (property 
+     (pinname +IN)
+     (pintype 0)
+     (Name +IN)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N00253)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname "-IN")
+     (pintype 0)
+     (Name "-IN")
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N00174)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname OUT)
+     (pintype 2)
+     (Name OUT)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N00174)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname V+)
+     (pintype 7)
+     (Name V+)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" 7)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname OFFSET1)
+     (pintype 4)
+     (Name OFFSET1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 4)
+     ("Is No Connect" True)))
+   (pin 999 4
+    (property 
+     (pinname "V-")
+     (pintype 7)
+     (Name "V-")
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" 4)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname OFFSET2)
+     (pintype 4)
+     (Name OFFSET2)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 6)
+     ("Is No Connect" True)))
+   (pin 999 8
+    (property 
+     (pinname NC)
+     (pintype 2)
+     (Name NC)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Output)
+     (Order 7)
+     ("Is No Connect" True))))
+  (image R
+   (property 
+    (sourcelib "D:\\PROGRAM FILES\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00306)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N07087)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image BATTERY
+   (property 
+    (sourcelib "D:\\PROGRAM FILES\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB"))
+   (pin 999 1
+    (property 
+     (pinname +)
+     (pintype 4)
+     (Name +)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" 7)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname "-")
+     (pintype 4)
+     (Name "-")
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC_BAR)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "CAP NP"
+   (property 
+    (sourcelib "D:\\PROGRAM FILES\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00253)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image POT
+   (property 
+    (sourcelib "D:\\PROGRAM FILES\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB"))
+   (pin 999 1
+    (property 
+     (pinname A)
+     (pintype 4)
+     (Name A)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00435)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname B)
+     (pintype 4)
+     (Name B)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname WIPER)
+     (pintype 4)
+     (Name WIPER)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00435)
+     (Order 2)
+     ("Is No Connect" False))))
+  (image "METER A"
+   (property 
+    (sourcelib C:\\CADENCE\\SPB_17.2\\TOOLS\\CAPTURE\\LIBRARY\\MISC.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16595)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image CON2
+   (property 
+    (sourcelib "D:\\PROGRAM FILES\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" 4)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N07087)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image 1N4148
+   (property 
+    (sourcelib "D:\\PROGRAM FILES\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\EVALAA.OLB")
+    (RCA DEF)
+    (TOL_ON_OFF ON)
+    (STATE ON))
+   (pin 999 1
+    (property 
+     (pinname CAT)
+     (pintype 4)
+     (Name CAT)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00174)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname AN)
+     (pintype 4)
+     (Name AN)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00298)
+     (Order 1)
+     ("Is No Connect" False)))))
+ (network
+  (net 4
+   (pins
+     BAT2-2 J1-1 U1-4 U2-4))
+  (net 7
+   (pins
+     BAT1-1 U1-7 U2-7))
+  (net GND
+    (property 
+     (nettype S))
+   (pins
+     C1-1 P1-3 J2-2 M1-1 U2-3))
+  (net N00174
+   (pins
+     D1-1 D2-2 R3-2 R4-1 U1-2 U1-6))
+  (net N00253
+   (pins
+     R2-2 C1-2 U1-3))
+  (net N00298
+   (pins
+     D1-2 D2-1 C3-1 C2-1 R5-2 U2-2))
+  (net N00306
+   (pins
+     R1-1 C3-2 C2-2 J2-1 U2-6))
+  (net N00435
+   (pins
+     R5-1 R4-2 P1-1 P1-2))
+  (net N07087
+   (pins
+     R1-2 R2-1 J1-2))
+  (net N16595
+   (pins
+     R3-1 M1-2))
+  (net VCC_BAR
+    (property 
+     (nettype S))
+   (pins
+     BAT2-1 BAT1-2)))
+)

@@ -1,0 +1,99 @@
+Wire List
+
+                                              Revised: Thursday, May 30, 2024
+C:\USERS\CATAV\ONEDRIVE - UNIVERSITATEA POLITERevision: 
+
+
+
+
+
+
+<<< Component List >>>
+9V                            BAT1      JUMPER2
+9V                            BAT2      JUMPER2
+100n                          C1        WCAP-CSST_885382207007
+470n                          C2        WCAP-CSGP_885012105004
+470n                          C3        WCAP-CSGP_885012105004
+1N4148                        D1        DO35
+1N4148                        D2        DO35
+CON2                          J1        JUMPER2
+CON2                          J2        JUMPER2
+100uA                         M1        JUMPER2
+10K                           P1        TRIM_3306F-1-103
+47K                           R1        RES400
+1M                            R2        RES400
+3.3K                          R3        RES400
+10K                           R4        RES400
+10M                           R5        RES400
+IC1                           U1        DIP8_3
+IC2                           U2        DIP8_3
+
+<<< Wire List >>>
+
+  NODE  REFERENCE    PIN #   PIN NAME           PIN TYPE       PART VALUE
+
+[00001] 4
+        BAT2            2       -               Passive        9V
+        J1              1       1               Passive        CON2
+        U1              4       V-              Power          IC1
+        U2              4       V-              Power          IC2
+
+[00002] 7
+        BAT1            1       +               Passive        9V
+        U1              7       V+              Power          IC1
+        U2              7       V+              Power          IC2
+
+[00003] GND
+        C1              1       1               Passive        100n
+        P1              3       B               Passive        10K
+        J2              2       2               Passive        CON2
+        M1              1       1               Passive        100uA
+        U2              3       +IN             Input          IC2
+
+[00004] N00174
+        D1              1       CAT             Passive        1N4148
+        D2              2       AN              Passive        1N4148
+        R3              2       2               Passive        3.3K
+        R4              1       1               Passive        10K
+        U1              2       -IN             Input          IC1
+        U1              6       OUT             Output         IC1
+
+[00005] N00253
+        R2              2       2               Passive        1M
+        C1              2       2               Passive        100n
+        U1              3       +IN             Input          IC1
+
+[00006] N00298
+        D1              2       AN              Passive        1N4148
+        D2              1       CAT             Passive        1N4148
+        C3              1       1               Passive        470n
+        C2              1       1               Passive        470n
+        R5              2       2               Passive        10M
+        U2              2       -IN             Input          IC2
+
+[00007] N00306
+        R1              1       1               Passive        47K
+        C3              2       2               Passive        470n
+        C2              2       2               Passive        470n
+        J2              1       1               Passive        CON2
+        U2              6       OUT             Output         IC2
+
+[00008] N00435
+        R5              1       1               Passive        10M
+        R4              2       2               Passive        10K
+        P1              1       A               Passive        10K
+        P1              2       WIPER           Passive        10K
+
+[00009] N07087
+        R1              2       2               Passive        47K
+        R2              1       1               Passive        1M
+        J1              2       2               Passive        CON2
+
+[00010] N16595
+        R3              1       1               Passive        3.3K
+        M1              2       2               Passive        100uA
+
+[00011] VCC_BAR
+        BAT2            1       +               Passive        9V
+        BAT1            2       -               Passive        9V
+

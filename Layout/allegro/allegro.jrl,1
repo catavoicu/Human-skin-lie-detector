@@ -1,0 +1,44 @@
+\t (00:00:09) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:09)     Journal start - Sat Jun 01 01:49:17 2024
+\t (00:00:09)         Host=LAPTOP_CATALIN User=catav Pid=16424 CPUs=12
+\t (00:00:09) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe -mpssession catav C:\USERS\CATAV\ONEDRIVE - UNIVERSITATEA POLITEHNICA BUCURESTI\DESKTOP\TIE_PCB_WORKING\TIE\allegro\IDK.brd
+\t (00:00:09) 
+   (00:00:09) Loading axlcore.cxt 
+\t (00:00:09) Opening existing design...
+\d (00:00:09) Design opened: C:/USERS/CATAV/ONEDRIVE - UNIVERSITATEA POLITEHNICA BUCURESTI/DESKTOP/TIE_PCB_WORKING/TIE/allegro/IDK.brd
+\i (00:00:09) trapsize 7028
+\i (00:00:09) trapsize 7197
+\i (00:00:09) trapsize 11955
+\i (00:00:09) trapsize 11938
+\i (00:00:10) etchedit 
+\i (00:00:13) done 
+\i (00:00:13) place manual 
+\i (00:00:13) FORM plc_manual placement_list 
+\i (00:00:13) FORM plc_manual categories Components by refdes 
+\i (00:00:13) trapsize 11938
+\i (00:00:21) setwindow form.plc_manual
+\i (00:00:21) FORM plc_manual advanced_settings  
+\i (00:00:22) FORM plc_manual placement_list  
+\i (00:00:24) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:00:24) Placing BAT1 / BATTERY_JUMPER2_9V / JUMPER2 on Top.
+\i (00:00:24) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:29) FORM plc_manual categories Mechanical symbols 
+\i (00:00:31) FORM plc_manual tree 'MULTISEL YES' 'Mechanical symbols' 
+\i (00:00:31) FORM plc_manual tree  'Mechanical symbols' 
+\i (00:00:31) FORM plc_manual tree 'MULTISEL YES' 'Mechanical symbols' 
+\i (00:00:32) FORM plc_manual tree 'MULTISEL YES' 'Mechanical symbols' 
+\i (00:00:32) FORM plc_manual tree 'MULTISEL YES' 'Mechanical symbols' 
+\i (00:00:33) FORM plc_manual advanced_settings  
+\i (00:00:34) FORM plc_manual placement_list  
+\i (00:00:35) FORM plc_manual cancel  
+\i (00:00:35) setwindow pcb
+\i (00:00:35) etchedit 
+\i (00:00:51) open 
+\e (00:00:52) Do you want to save the changes you made to IDK.brd?
+\i (00:00:54) fillin no 
+\i (00:01:02) fillin "C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\TIE_PCB_WORKING\TIE\PCB.brd"
+\i (00:01:02) cd "C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\TIE_PCB_WORKING\TIE"
+\t (00:01:02) Opening existing design...
+\i (00:01:02) trapsize 3193
+\t (00:01:02) Grids are drawn 50.00, 50.00 apart for enhanced viewability.
+\t (00:01:02)     Journal end - Sat Jun 01 01:50:11 2024

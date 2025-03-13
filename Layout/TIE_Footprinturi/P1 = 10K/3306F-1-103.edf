@@ -1,0 +1,228 @@
+
+(EDIF
+  (rename &3306F_45_1_45_103 "3306F-1-103")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2022 08 14 05 46 40)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename &3306F_45_1_45_103 "3306F-1-103")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename &3306F_45_1_45_103 "3306F-1-103")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "R")
+          (property (rename VALUE "Value") (string "3306F-1-103"))
+          (port
+            (rename CCW "CCW")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "1")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename W "W")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "2")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename CW "CW")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "3")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -30000 -4000) (pt 30000 20000)))
+            (portImplementation
+              (name CW)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 26062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 30000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 30000 0)
+                    (pt 20000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name CCW)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -26062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -30000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -30000 0)
+                    (pt -20000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name W)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify LOWERCENTER)
+                  (orientation R0)
+                  (origin (pt 0 16062))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 0 20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 0 20000)
+                    (pt 0 10000)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 0) (pt 18000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 18000 0) (pt 15000 -4000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 15000 -4000) (pt 10000 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 5000) (pt 5000 -4000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 5000 -4000) (pt 0 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 5000) (pt -5000 -4000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -5000 -4000) (pt -10000 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 5000) (pt -15000 -4000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -15000 -4000) (pt -18000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -18000 0) (pt -20000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 5000) (pt -5000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 5000 10000) (pt 0 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -5000 10000) (pt 5000 10000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -40000 20000))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -40000 -20000))
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "TRIM_3306F-1-103"))
+          )
+        )
+      )
+    )
+  )
+)

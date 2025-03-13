@@ -1,0 +1,140 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../DESKTOP/TIE_PCB_WORKING/TIE/allegro/IDK.brd                           |
+|                                                    Sat Jun 01 01:49:08 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  4            pins ADDED TO this new net
+                                 BAT2.2         J1.1           U1.4           
+                                 U2.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  7            pins ADDED TO this new net
+                                 BAT1.1         U1.7           U2.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C1.1           J2.2           M1.1           
+                                 P1.3           U2.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00174       pins ADDED TO this new net
+                                 D1.1           D2.2           R3.2           
+                                 R4.1           U1.2           U1.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00253       pins ADDED TO this new net
+                                 C1.2           R2.2           U1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00298       pins ADDED TO this new net
+                                 C2.1           C3.1           D1.2           
+                                 D2.1           R5.2           U2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00306       pins ADDED TO this new net
+                                 C2.2           C3.2           J2.1           
+                                 R1.1           U2.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00435       pins ADDED TO this new net
+                                 P1.1           P1.2           R4.2           
+                                 R5.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07087       pins ADDED TO this new net
+                                 J1.2           R1.2           R2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16595       pins ADDED TO this new net
+                                 M1.2           R3.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC_BAR      pins ADDED TO this new net
+                                 BAT1.2         BAT2.1         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../DESKTOP/TIE_PCB_WORKING/TIE/allegro/IDK.brd                           |
+|                                                    Sat Jun 01 01:49:08 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 1N4148_DO35_1N4148
+ BATTERY_JUMPER2_9V
+ CAP NP_WCAP-CSGP_885012105004_4
+ CAP NP_WCAP-CSST_885382207007_1
+ CON2_JUMPER2_CON2
+ LF356_1_DIP8_3_IC1
+ LF356_1_DIP8_3_IC2
+ METER A_JUMPER2_100UA
+ POT_TRIM_3306F-1-103_10K
+ R_RES400_1M
+ R_RES400_3.3K
+ R_RES400_10K
+ R_RES400_10M
+ R_RES400_47K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../DESKTOP/TIE_PCB_WORKING/TIE/allegro/IDK.brd                           |
+|                                                    Sat Jun 01 01:49:08 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BAT1                BATTERY_JUMPER2_9V    
+ BAT2                BATTERY_JUMPER2_9V    
+ C1                  CAP NP_WCAP-CSST_885382207007_1 
+ C2                  CAP NP_WCAP-CSGP_885012105004_4 
+ C3                  CAP NP_WCAP-CSGP_885012105004_4 
+ D1                  1N4148_DO35_1N4148    
+ D2                  1N4148_DO35_1N4148    
+ J1                  CON2_JUMPER2_CON2     
+ J2                  CON2_JUMPER2_CON2     
+ M1                  METER A_JUMPER2_100UA 
+ P1                  POT_TRIM_3306F-1-103_10K 
+ R1                  R_RES400_47K          
+ R2                  R_RES400_1M           
+ R3                  R_RES400_3.3K         
+ R4                  R_RES400_10K          
+ R5                  R_RES400_10M          
+ U1                  LF356_1_DIP8_3_IC1    
+ U2                  LF356_1_DIP8_3_IC2    
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../DESKTOP/TIE_PCB_WORKING/TIE/allegro/IDK.brd                           |
+|                                                    Sat Jun 01 01:49:08 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BAT1.2                         PRIM_FILE      .\pstchip.dat
+ BAT2.2                         PRIM_FILE      .\pstchip.dat
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ D1.1                           PRIM_FILE      .\pstchip.dat
+ D2.1                           PRIM_FILE      .\pstchip.dat
+ J1.2                           PRIM_FILE      .\pstchip.dat
+ J2.2                           PRIM_FILE      .\pstchip.dat
+ M1.2                           PRIM_FILE      .\pstchip.dat
+ P1.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ U1.4                           PRIM_FILE      .\pstchip.dat
+ U2.4                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :      43                                        |
+|       Comp definitions added:      14                                        |
+|       Components added      :      18                                        |
+|       Slot property added   :      18                                        |
+|                                                                              |
+|   Total ECO changes reported:      93                                        |
+|------------------------------------------------------------------------------|

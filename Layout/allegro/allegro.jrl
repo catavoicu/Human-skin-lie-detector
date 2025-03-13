@@ -1,0 +1,302 @@
+\t (00:00:02) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sat Jun 01 15:02:17 2024
+\t (00:00:02)         Host=LAPTOP_CATALIN User=catav Pid=8284 CPUs=12
+\t (00:00:02) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe -mpssession catav C:\USERS\CATAV\ONEDRIVE - UNIVERSITATEA POLITEHNICA BUCURESTI\DESKTOP\TIE_PCB_WORKING\TIE\allegro\IDK.brd
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: C:/USERS/CATAV/ONEDRIVE - UNIVERSITATEA POLITEHNICA BUCURESTI/DESKTOP/TIE_PCB_WORKING/TIE/allegro/IDK.brd
+\i (00:00:02) trapsize 7028
+\i (00:00:03) trapsize 7197
+\i (00:00:03) trapsize 11955
+\i (00:00:03) trapsize 11938
+\i (00:00:03) etchedit 
+\i (00:00:07) grid toggle 
+\t (00:00:07) Grids are drawn 100.00, 100.00 apart for enhanced viewability.
+\i (00:00:08) etchedit 
+\i (00:00:12) board outline 
+   (00:00:12) Loading floor.cxt 
+   (00:00:12) Loading fputil.cxt 
+\i (00:00:15) setwindow form.fpbdoutline
+\i (00:00:15) FORM fpbdoutline fpboplacerect YES 
+\i (00:00:20) FORM fpbdoutline fpboplacewdt 1970 
+\i (00:00:25) FORM fpbdoutline fpboplacehgt 1970 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 6375.00 9240.17
+\i (00:00:27) trapsize 5969
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 6279.49 9049.16
+\i (00:00:27) trapsize 2985
+\i (00:00:28) pick grid 6470.51 8655.21
+\t (00:00:28) last pick:  6500.00 8700.00
+\i (00:00:34) setwindow form.fpbdoutline
+\i (00:00:34) FORM fpbdoutline fpboclearance '50.00 MIL' 
+\i (00:00:34) FORM fpbdoutline apply  
+\i (00:00:36) fillin confirm
+\i (00:00:38) FORM fpbdoutline done  
+\i (00:00:38) setwindow pcb
+\i (00:00:38) etchedit 
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 8726.83 9090.95
+\i (00:00:39) trapsize 1492
+\i (00:00:40) zoom out 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom out 8768.62 9013.35
+\i (00:00:40) trapsize 2985
+\i (00:00:45) done 
+\i (00:00:45) place manual 
+\i (00:00:45) setwindow form.plc_manual 
+\i (00:00:45) setwindow form.plc_manual
+\i (00:00:45) FORM plc_manual advanced_settings 
+\i (00:00:45) FORM plc_manual advanced_settings  
+\i (00:00:45) FORM plc_manual library YES 
+\i (00:00:45) FORM plc_manual library YES 
+\i (00:00:45) FORM plc_manual placement_list 
+\i (00:00:45) FORM plc_manual placement_list  
+\i (00:00:45) FORM plc_manual categories Mechanical symbols 
+\i (00:00:45) FORM plc_manual categories Mechanical symbols 
+\i (00:00:46) trapsize 2985
+\i (00:00:48) FORM plc_manual tree 'MULTISEL YES' GAURA 'Mechanical symbols' 
+\w (00:00:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:48) FORM plc_manual tree  GAURA 'Mechanical symbols' 
+\i (00:00:52) pick grid 8255.27 8917.85
+\t (00:00:52) last pick:  8300.00 8900.00
+\i (00:00:57) FORM plc_manual tree 'MULTISEL YES' GAURA 'Mechanical symbols' 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) pick grid 6745.09 10451.91
+\t (00:00:59) last pick:  6700.00 10500.00
+\i (00:01:00) setwindow form.plc_manual
+\i (00:01:00) FORM plc_manual done  
+\i (00:01:00) setwindow pcb
+\i (00:01:00) etchedit 
+\i (00:01:06) done 
+\i (00:01:06) place manual 
+\i (00:01:07) FORM plc_manual placement_list 
+\i (00:01:07) FORM plc_manual categories Components by refdes 
+\i (00:01:07) setwindow form.plc_manual
+\i (00:01:07) FORM plc_manual categories Components by refdes 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) trapsize 2985
+\i (00:01:08) setwindow form.plc_manual
+\i (00:01:08) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:01:08) Placing BAT1 / BATTERY_JUMPER2_9V / JUMPER2 on Top.
+\i (00:01:08) FORM plc_manual tree  'Components by refdes' 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) pick grid 7031.61 10451.91
+\t (00:01:12) last pick:  7000.00 10500.00
+\t (00:01:12) Placing BAT2 / BATTERY_JUMPER2_9V / JUMPER2 on Top.
+\i (00:01:13) pick grid 7007.73 10254.93
+\t (00:01:13) last pick:  7000.00 10300.00
+\w (00:01:13) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:01:13) Placing C1 / CAP NP_WCAP-CSST_885382207007_1 / WCAP-CSST_885382207007 on Top.
+\i (00:01:15) pick grid 6649.59 10183.30
+\t (00:01:15) last pick:  6600.00 10200.00
+\w (00:01:15) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:01:15) Placing C2 / CAP NP_WCAP-CSGP_885012105004_4 / WCAP-CSGP_885012105004 on Top.
+\i (00:01:16) pick grid 6649.59 9974.38
+\t (00:01:16) last pick:  6600.00 10000.00
+\t (00:01:16) Placing C3 / CAP NP_WCAP-CSGP_885012105004_4 / WCAP-CSGP_885012105004 on Top.
+\i (00:01:17) pick grid 6601.83 9753.52
+\t (00:01:17) last pick:  6600.00 9800.00
+\t (00:01:17) Placing D1 / 1N4148_DO35_1N4148 / DO35 on Top.
+\i (00:01:20) pick grid 6697.34 8846.22
+\t (00:01:20) last pick:  6700.00 8800.00
+\t (00:01:20) Placing D2 / 1N4148_DO35_1N4148 / DO35 on Top.
+\i (00:01:21) pick grid 6864.47 8846.22
+\t (00:01:21) last pick:  6900.00 8800.00
+\t (00:01:21) Placing J1 / CON2_JUMPER2_CON2 / JUMPER2 on Top.
+\i (00:01:23) pick grid 6959.98 10051.98
+\t (00:01:23) last pick:  7000.00 10100.00
+\t (00:01:23) Placing J2 / CON2_JUMPER2_CON2 / JUMPER2 on Top.
+\i (00:01:25) pick grid 7013.70 9855.00
+\t (00:01:25) last pick:  7000.00 9900.00
+\t (00:01:25) Placing M1 / METER A_JUMPER2_100UA / JUMPER2 on Top.
+\i (00:01:26) pick grid 7049.52 9681.89
+\t (00:01:26) last pick:  7000.00 9700.00
+\w (00:01:27) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:01:27) Placing P1 / POT_TRIM_3306F-1-103_10K / TRIM_3306F-1-103 on Top.
+\i (00:01:29) pick grid 7455.41 9425.22
+\t (00:01:29) last pick:  7500.00 9400.00
+\t (00:01:29) Placing R1 / R_RES400_47K / RES400 on Top.
+\i (00:01:32) pick grid 7145.02 8786.53
+\t (00:01:32) last pick:  7100.00 8800.00
+\t (00:01:32) Placing R2 / R_RES400_1M / RES400 on Top.
+\i (00:01:33) pick grid 7347.97 8840.25
+\t (00:01:33) last pick:  7300.00 8800.00
+\t (00:01:33) Placing R3 / R_RES400_3.3K / RES400 on Top.
+\i (00:01:34) pick grid 7479.29 8846.22
+\t (00:01:34) last pick:  7500.00 8800.00
+\t (00:01:34) Placing R4 / R_RES400_10K / RES400 on Top.
+\i (00:01:35) pick grid 7652.39 8756.68
+\t (00:01:35) last pick:  7700.00 8800.00
+\t (00:01:35) Placing R5 / R_RES400_10M / RES400 on Top.
+\i (00:01:36) pick grid 7855.34 8786.53
+\t (00:01:36) last pick:  7900.00 8800.00
+\t (00:01:36) Placing U1 / LF356_1_DIP8_3_IC1 / DIP8_3 on Top.
+\i (00:01:38) pick grid 8046.36 10463.85
+\t (00:01:38) last pick:  8000.00 10500.00
+\t (00:01:38) Placing U2 / LF356_1_DIP8_3_IC2 / DIP8_3 on Top.
+\i (00:01:39) pick grid 8046.36 9932.60
+\t (00:01:39) last pick:  8000.00 9900.00
+\i (00:01:42) setwindow form.plc_manual
+\i (00:01:42) FORM plc_manual done  
+\i (00:01:42) setwindow pcb
+\i (00:01:42) etchedit 
+\i (00:01:43) zoom in 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom in 8058.29 9329.72
+\i (00:01:43) trapsize 1492
+\i (00:01:48) cmgr 
+\i (00:01:49) etchedit 
+\i (00:01:52) setwindow cmgr
+\i (00:01:52) cm select ( frame ( kConsmgr workbook 78:Spacing "79:Spacing Constraint Set" "80:All Layers" ) )
+\i (00:01:52) cm select ( frame ( kConsmgr workbook 78:Spacing "79:Spacing Constraint Set" "80:All Layers" ) )
+\i (00:01:52) cm select ( frame ( kConsmgr workbook 78:Spacing "79:Spacing Constraint Set" "80:All Layers" ) )
+\i (00:01:52) cm expand ( row ( Design "IDK" ) )
+\i (00:01:52) cm selectDesignTab ( kConsmgr worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" "167:All Layers" ) 0
+\i (00:01:54) cm select ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:01:54) cm select ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:01:54) cm select ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:01:54) cm expand ( row ( Design "IDK" ) )
+\i (00:01:54) cm selectDesignTab ( kConsmgr worksheet 78:Spacing 94:Net "95:All Layers" "1:All Layers" ) 0
+\i (00:01:54) cm select ( frame ( kConsmgr workbook 78:Spacing "79:Spacing Constraint Set" "80:All Layers" ) )
+\i (00:01:54) cm select ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:02:06) cm close ( frame ( kConsmgr workbook 78:Spacing "79:Spacing Constraint Set" "80:All Layers" ) )
+\i (00:02:06) cm close ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:02:07) cm exit
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom in 1 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom in 8410.47 9183.48
+\i (00:02:07) trapsize 746
+\i (00:02:08) zoom out 1 
+\i (00:02:08) setwindow pcb
+\i (00:02:08) zoom out 8632.82 9144.68
+\i (00:02:08) trapsize 1492
+\i (00:02:10) show measure 
+\i (00:02:10) zoom in 1 
+\i (00:02:10) setwindow pcb
+\i (00:02:10) zoom in 8576.12 8998.44
+\i (00:02:10) trapsize 746
+\i (00:02:10) zoom in 1 
+\i (00:02:10) setwindow pcb
+\i (00:02:10) zoom in 8488.07 8883.53
+\i (00:02:10) trapsize 373
+\i (00:02:11) pick grid 8300.04 8899.20
+\t (00:02:11) last pick:  8300.00 8900.00
+\i (00:02:12) roam start
+\i (00:02:12) roam y 48
+\i (00:02:12) roam x 32
+\i (00:02:12) roam y 48
+\i (00:02:12) roam x 16
+\i (00:02:12) roam y 48
+\i (00:02:12) roam x 32
+\i (00:02:12) roam y 64
+\i (00:02:12) roam y 64
+\i (00:02:12) roam x 16
+\i (00:02:12) roam y 48
+\i (00:02:13) roam y 32
+\i (00:02:13) roam end
+\i (00:02:14) pick grid 8467.13 8702.91
+\t (00:02:14) last pick:  8475.00 8700.00
+\i (00:02:15) setwindow text
+\i (00:02:15) close
+\i (00:02:16) zoom in 1 
+\i (00:02:16) setwindow pcb
+\i (00:02:16) zoom in 8529.80 8710.37
+\i (00:02:16) trapsize 187
+\i (00:02:16) zoom out 1 
+\i (00:02:16) setwindow pcb
+\i (00:02:16) zoom out 8558.53 8734.99
+\i (00:02:16) trapsize 373
+\i (00:02:16) roam start
+\i (00:02:17) roam y -48
+\i (00:02:17) roam x -16
+\i (00:02:17) roam y -64
+\i (00:02:17) roam x -16
+\i (00:02:17) roam y -80
+\i (00:02:17) roam y -32
+\i (00:02:17) roam end
+\i (00:02:19) move 
+\t (00:02:20) Select element(s) to move.
+\i (00:02:20) pick grid 8267.84 8901.30
+\t (00:02:20) last pick:  8275.00 8900.00
+\t (00:02:20) last pick:  8300.00 8900.00
+\t (00:02:20) Pick new location for the element(s).
+\i (00:02:22) pick grid 8270.08 8887.13
+\t (00:02:22) last pick:  8275.00 8875.00
+\i (00:02:23) show measure 
+\i (00:02:24) pick grid 8275.30 8875.19
+\t (00:02:24) last pick:  8275.00 8875.00
+\i (00:02:25) pick grid 8467.81 8701.34
+\t (00:02:25) last pick:  8475.00 8700.00
+\i (00:02:26) setwindow text
+\i (00:02:26) close
+\i (00:02:28) move 
+\t (00:02:29) Select element(s) to move.
+\i (00:02:29) zoom out 1 
+\i (00:02:29) setwindow pcb
+\i (00:02:29) zoom out 8449.90 8982.63
+\i (00:02:29) trapsize 746
+\i (00:02:29) roam start
+\i (00:02:29) roam x -32
+\i (00:02:29) roam y -32
+\i (00:02:29) roam x -64
+\i (00:02:29) roam y -64
+\i (00:02:29) roam x -80
+\i (00:02:29) roam y -64
+\i (00:02:29) roam x -176
+\i (00:02:29) roam y -96
+\i (00:02:30) roam x -208
+\i (00:02:30) roam y -144
+\i (00:02:30) roam x -112
+\i (00:02:30) roam y -64
+\i (00:02:30) roam x -128
+\i (00:02:30) roam y -96
+\i (00:02:30) roam x -160
+\i (00:02:30) roam y -128
+\i (00:02:30) roam x -112
+\i (00:02:30) roam y -112
+\i (00:02:30) roam x -96
+\i (00:02:30) roam y -80
+\i (00:02:30) roam x -96
+\i (00:02:30) roam y -80
+\i (00:02:30) roam x -80
+\i (00:02:30) roam y -80
+\i (00:02:30) roam x -48
+\i (00:02:30) roam y -48
+\i (00:02:30) roam x -16
+\i (00:02:30) roam y -32
+\i (00:02:30) roam x 16
+\i (00:02:30) roam y -16
+\i (00:02:30) roam x 32
+\i (00:02:30) roam y -32
+\i (00:02:30) roam x 32
+\i (00:02:30) roam y -16
+\i (00:02:30) roam end
+\i (00:02:31) show measure 
+\i (00:02:32) pick grid 6704.73 10499.56
+\t (00:02:32) last pick:  6700.00 10500.00
+\i (00:02:33) pick grid 6497.31 10666.69
+\t (00:02:33) last pick:  6500.00 10675.00
+\i (00:02:35) setwindow text
+\i (00:02:35) close
+\i (00:02:40) save 
+\i (00:02:44) fillin yes 
+   (00:02:44) Loading consmgr.cxt 
+   (00:02:44) Loading acns_formula.cxt 
+\i (00:02:45) etchedit 
+\i (00:03:39) save_as 
+\i (00:03:54) fillin "C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\TIE_PCB_WORKING\TIE\PCB_BUN.brd"
+\i (00:03:54) cd "C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\TIE_PCB_WORKING\TIE"
+\i (00:03:54) etchedit 
+\i (00:03:57) save 
+\i (00:03:59) fillin no 
+\i (00:04:02) fillin "menu_cancel"
+\i (00:04:02) etchedit 
+\i (00:04:02) exit 
+\t (00:04:03)     Journal end - Sat Jun 01 15:06:18 2024

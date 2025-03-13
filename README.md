@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Human skin lie detector circuit
+ Human skin lie detector circuit
 
 ## 📜 Descrierea Proiectului
 

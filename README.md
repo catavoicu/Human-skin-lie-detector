@@ -6,11 +6,9 @@ Acest proiect constă într-un detector de minciuni electronic, capabil să ofer
 
 ### Caracteristici principale:
 
-- **Detectarea variațiilor de rezistență ale pielii**, asociate cu stări emoționale intense;
 - **Alimentare de la două baterii de 9V**, pentru a evita influențarea măsurătorilor;
 - **Amplificator operațional A1** pentru amplificarea semnalului de intrare și separare;
 - **Amplificator operațional A2** configurat ca integrator pentru reglaj automat;
-- **Indicator vizual** pentru afișarea nivelului de emoție detectat;
 - **Ajustare fină** prin intermediul unui potențiometru pentru calibrare.
 
 ## 📁 Structura Proiectului

@@ -47,7 +47,7 @@ Proiectul include următoarele fișiere și directoare:
 
 ## 👨‍💻 Autor
 
-- **Nume**: [Numele tău]
-- **Email**: [Email-ul tău]
-- Proiect realizat în cadrul unui curs de electronică.
+- **Nume**: Catalin Voicu
+- **Email**: catavoicu01@gmail.com
+- Proiect realizat ca parte a cursului: Tehnici CAD în realizarea modulelor electronice
 - **Universitate**: Universitatea Politehnica București, Facultatea de Electronică, Telecomunicații și Tehnologia Informației.

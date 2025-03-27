@@ -43,7 +43,7 @@ Proiectul include următoarele fișiere și directoare:
 2. **PCB Design**:
    ![PCB](https://github.com/user-attachments/assets/657064f6-a793-4504-9700-3767f7864680)
 
-## 👨‍💻 Autor
+## Autor
 
 - **Nume**: Catalin Voicu
 - **Email**: catavoicu01@gmail.com

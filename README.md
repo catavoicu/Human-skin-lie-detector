@@ -1,6 +1,6 @@
 # Human skin lie detector circuit
 
-## 📜 Descrierea Proiectului
+## Descrierea Proiectului
 
 Acest proiect constă într-un detector de minciuni electronic, capabil să ofere două tipuri de măsurători: una pentru întrebările dificile adresate și alta pentru a indica starea emoțională generală. Stările emoționale sunt detectate nu doar prin accelerarea ritmului cardiac și tremurul mâinilor, ci și prin creșterea umidității pielii, care determină scăderea rezistenței și activarea detectorului de minciuni.
 
@@ -11,7 +11,7 @@ Acest proiect constă într-un detector de minciuni electronic, capabil să ofer
 - **Amplificator operațional A2** configurat ca integrator pentru reglaj automat;
 - **Ajustare fină** prin intermediul unui potențiometru pentru calibrare.
 
-## 📁 Structura Proiectului
+## Structura Proiectului
 
 Proiectul include următoarele fișiere și directoare:
 
@@ -22,20 +22,20 @@ Proiectul include următoarele fișiere și directoare:
   - **Descrierea funcționării** circuitului;
   - **Calculul componentelor** pentru proiectare optimă.
 
-## 🔧 Instrucțiuni pentru Utilizare
+## Instrucțiuni pentru Utilizare
 
 ### **Simularea Circuitului**
   Deschide fișierul `.opj` din folderul `Schematics` folosind un simulator compatibil (ex. OrCAD);
 
 
-## ⚙️ Cerințe Tehnice
+## Cerințe Tehnice
 
 - **Software necesar**:
   - Software necesar:
     - OrCAD 17.2 - OrCAD X pentru simulări.
     - OrCAD 17.2 - OrCAD X pentru design-ul PCB.
 
-## 🖼️ Capturi de Ecran și Scheme
+## Capturi de Ecran și Scheme
 
 1. **Schemă Electrică**:
    ![Schemă](https://github.com/user-attachments/assets/0b09990f-97f6-44a7-b949-0f0ce008b7cc)
